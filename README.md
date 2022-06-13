@@ -1,2 +1,3 @@
-# node-apps-base-template
+# Node apps base template 📝
+
 Base template for node applications.
