@@ -2,7 +2,7 @@
 	"name": "node-apps-base-template",
 	"version": "0.0.0",
 	"description": "Base template for node applications.",
-	"main": "index.js",
+	"main": "src/index.ts",
 	"repository": "git@github.com:leonardoXoliveira/node-apps-base-template.git",
 	"author": "Leonardo Oliveira <xcontato.leonardo.x.oliveirax@gmail.com> (https://github.com/leonardoXoliveira)",
 	"license": "MIT",
@@ -13,7 +13,8 @@
 		"commit": "git-cz",
 		"test": "echo \"Run tests :)\"",
 		"dev": "NODE_ENV=development ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts",
-		"build": "tsc"
+		"build": "tsc",
+		"start": "NODE_ENV=production node dist/index.js"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.0.2",
